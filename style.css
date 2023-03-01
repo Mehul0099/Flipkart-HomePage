@@ -1,0 +1,411 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    height: 56px;
+    width: 100%;
+   
+}
+
+.plus-color {
+    color: yellow;
+    font-weight: 900;
+}
+
+.logo {
+    padding-top: 10px;
+}
+
+.logo p {
+    color: white;
+    position: relative;
+    top: -5px;
+}
+
+
+.search {
+    background-color: white;
+    padding: 8px;
+    width: 420px;
+    height: 36px;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #2874f0;
+    box-shadow: -7px -7px 10px rgba(0, 0, 0, 0.1),
+        7px 7px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.search input {
+    width: 380px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.loginBtn {
+    padding: 7px 40px;
+    font-size: 16px;
+    font-weight: 550;
+    border: none;
+    outline: none;
+    color: #2874f0;
+}
+
+.NavLink {
+    margin: 0px 20px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.angledownIcon i {
+    font-size: 10px;
+}
+
+
+/* Top Product Navbar Styling */
+
+.topProductNavbar {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 250px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.topProductNavbar_Nav {
+    height: 80px;
+   
+    cursor: pointer;
+    flex: 1;
+}
+
+.topProductNavbar_Nav img {
+    height: 64px;
+    width: 64px;
+    padding: 5px ;
+}
+
+.topProductNavbar_Nav p {
+    font-weight: 510px;
+
+}
+
+.topProductNavbar_Nav:hover p {
+    color: #2874f0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+
+/* --------------------Product Styling--------------------- */
+
+.products {
+    font-family: Roboto, Arial, sans-serif;
+    display: flex;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 5px;
+    background-color: white;
+    justify-content: space-evenly;
+    box-shadow: rgba(177, 174, 174, 0.46) 0px 0px 5px 1px;
+}
+
+
+.product {
+    height: 300px;
+}
+
+.prImage {
+   
+    height: 170px;
+}
+
+.product p {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(241, 241, 241)
+}
+
+.prName {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.prOffer {
+    color: #388e3c;
+    ;
+}
+
+.more {
+    font-size: 14px;
+    opacity: .6;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+}
+
+
+
+/* -----------------------------Footer Styling----------------------------------- */
+
+
+footer {
+    background-color: #172337;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.footer-row {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    padding: 30px 60px;
+}
+
+.footer-row2 {
+    display: flex;
+    border-top: 1px solid #454d5e;
+    justify-content: space-evenly;
+}
+
+.footer-col-1 {
+    width: 15%;
+}
+
+.footer-col-2 {
+    width: 15%;
+}
+
+.footer-col-3 {
+    width: 15%;
+}
+
+.footer-col-4 {
+    width: 10%;
+}
+
+.footer-col-5 {
+    width: 20%;
+    border-left: 1px solid #454d5e;
+    height: 120px;
+    padding-left: 25px;
+}
+
+.footer-col-6 {
+    width: 20%;
+    padding-left: 50px;
+}
+
+
+.footer-heading p {
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    padding: 10px 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.footer-list a {
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 0px;
+}
+
+.footer-list a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-list p {
+    text-align: left;
+    display: block;
+    color: white;
+    font-size: 12px;
+    font-weight: 100px;
+    padding: 5px 0px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.footer-list-address p {
+    text-align: left;
+    display: block;
+    color: white;
+    font-size: 12px;
+    font-weight: 100px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.footer-list-address span {
+    color: rgb(60, 109, 245);
+    cursor: pointer;
+}
+
+.footer-row2-col p {
+    color: white;
+    font-size: 15px;
+    font-weight: 100px;
+    line-height: 20px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: .7px;
+}
+
+.fa-shopping-bag,
+.fa-star,
+.fa-gift,
+.fa-question-circle {
+    color: #ffd700;
+    cursor: pointer;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+/*product page */
+
+
+.fa-tag {
+    color: #ff6000;
+}
+
+#seeoffer {
+    color: rgba(37, 37, 207, 0.562);
+
+}
+
+.tnc {
+    color: rgba(37, 37, 207, 0.562);
+}
+
+.toprat {
+    font-size: 20px;
+    padding-left: 5px;
+    color: white;
+    background-color: #388e3c;
+    border-radius: 4px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+#addcart {
+    background-color: #ff9f00;
+    border: none;
+    border-radius: 2px;
+    width: 250px;
+    height: 55px;
+    margin-left: 0px;
+}
+
+#buynow {
+    background-color: #fb641b;
+    border: none;
+    border-radius: 2px;
+    width: 250px;
+    height: 55px;
+}
+
+.tablehead {
+    color: rgba(0, 0, 0, 0.507);
+}
+
+
+
+
+
+/* Media Queries */
+
+
+
+
+@media screen and (max-width: 1100px) {
+    nav .NavLink {
+        display: none;
+    }
+    nav{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav .search{
+        display: none;
+    }
+    nav{
+        justify-content: space-evenly;
+       }
+}
+
+@media screen and (max-width: 570px) {
+   nav{
+    justify-content: space-evenly;
+   }
+   .logo {
+    padding-top: 5px;
+   }
+   
+}
+
+
+@media screen and (max-width: 1300px) {
+    .topProductNavbar{
+        display: flex;
+        justify-content: space-around;
+        font-size: 14px;
+
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+  .products{
+    overflow: scroll;
+    height: 220px;
+    
+  }
+  .prImage{
+    height: 100px;
+    width: 50px;
+    margin: auto;
+    margin-left: 20px;
+  }
+ 
+.product p {
+    text-align: center;
+}
+.prOffer{
+    font-size: 12px;
+}
+
+}
